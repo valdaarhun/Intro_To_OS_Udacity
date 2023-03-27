@@ -14,3 +14,11 @@ Write a multi-threaded C program that gives readers priority over writers concer
 - Before a reader/writer attempts to access the shared variable it should wait some random amount of time
   - _Note:_ This will help ensure that reads and writes do not occur all at once
 - Use pthreads, mutexes, and condition variables to synchronize access to the shared variable
+
+## Building
+
+Run:
+
+```
+make
+```
