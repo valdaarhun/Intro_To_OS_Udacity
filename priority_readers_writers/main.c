@@ -68,8 +68,7 @@ int main(){
     // Get value of x
     printf("Input the value of x: ");
     fflush(stdout);
-//    scanf(" %d", &x);
-    x = 5;
+    scanf(" %d", &x);
 
     // Set random seed
     srand(0);
